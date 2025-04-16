@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/***HEADER***/
+.hero {
+  position: relative;
+  box-shadow: -1px -11px 400px -50px rgba(211,103,29,1);
+    -webkit-box-shadow: -5px -5px 18px 0px rgba(211, 103, 29, 1);
+-moz-box-shadow: -1px -11px 400px -50px rgba(211,103,29,1);
+}
+
+.unique-deckstop {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 15px 20px; */
+  /* background-color: white; */
+  position: relative;
+  z-index: 1000;
+}
+
+.logo img {
+    height: 86px;
+    width: 143px;
+    object-fit: cover;
+    
+}
+
+/* Burger Menu Styles */
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.burger-menu span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transition: all 0.3s ease;
+}
+
+/* annimation ta3 burger menu*/
+.burger-menu.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 8px);
+}
+
+.burger-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -8px);
+}
+
+.nav-links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-links li {
+  margin: 20px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.nav-links.active li {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #888;
+}
+
+/* Desktop Menu */
+@media (min-width: 768px) {
+  .mobile-header {
+    display: none;
+  }
+  .logo img {
+    height: 86px;
+    width: 143px;
+    object-fit: cover;
+    margin-left: 87px;
+}
+.navbar {
+    
+    justify-content: space-between;
+    
+  }
+  .unique-deckstop {
+    /* display: block; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -1px -11px 400px -50px rgba(211,103,29,1);
+    -webkit-box-shadow: -5px -5px 18px 0px rgba(211, 103, 29, 1);
+-moz-box-shadow: -1px -11px 400px -50px rgba(211,103,29,1);
+  }
+
+  .liens-nav .sible {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .liens-nav .sible li {
+    margin: 0 15px;
+  }
+
+  .liens-nav .sible a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
