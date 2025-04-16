@@ -1,0 +1,29 @@
+# Ignorer le fichier .env contenant des informations sensibles
+.env
+
+# Ignorer le dossier vendor (dépendances Composer)
+vendor/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers de sauvegarde
+*.bak
+
+# Ignorer les fichiers générés par l'éditeur de texte (par exemple, Vim ou Emacs)
+*.swp
+*~.nib
+
+# Ignorer les fichiers temporaires
+*.tmp
+
+# Ignorer les fichiers de configuration locale
+*.local
+
+# Ignorer les fichiers spécifiques aux systèmes (par exemple Mac ou Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration IDE (par exemple, VSCode ou IntelliJ)
+.vscode/
+.idea/
