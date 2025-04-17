@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
+* {
   font-family: "Poppins", sans-serif;
 }
 /***HEADER***/
@@ -28,7 +28,7 @@ body {
   /* padding: 15px 20px; */
   /* background-color: white; */
   position: relative;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .logo img {
@@ -40,13 +40,14 @@ body {
 
 /* Burger Menu Styles */
 .burger-menu {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
   height: 22px;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 9999;
 }
 
 .burger-menu span {
@@ -76,14 +77,20 @@ body {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.5); /* un peu de foncé */
+  backdrop-filter: blur(6px); /* <- le flou ici */
   display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: 900;
+  transition: all 0.3s ease;
 }
-
+.nav-links a:hover{
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #ff6600;
+}
 .nav-links.active {
   display: flex;
 }

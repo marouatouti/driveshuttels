@@ -4,6 +4,10 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
 $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
+$googleScriptUrl = $_ENV['GOOGLE_SCRIPT_URL'] ?? '';
+
+
+
 ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +59,7 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
 
                     <!-- Formulaire Trajet -->
                     <form id="trajet-form" class="form" style="display: flex;">
-                        <h2>Obtenez un devis pour votre trajet</h2>
+                        <h2>Obtenez un devis pour <br>votre trajet</h2>
                         <input type="text" name="depart" id="depart" placeholder="Adresse de départ" required>
                         <input type="text" name="arrivee" id="arrivee" placeholder="Adresse d'arrivée" required>
                         <div class="separatorFormAccueil">
@@ -109,8 +113,11 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
         </section>
 
         <section class="voitureInfo fade-in">
-            <h2>Confort et sécurité pour votre voyage</h2>
-            <p>Véhicules avec licence et chauffeurs professionnels</p>
+            <div class="voitureInfotitre">
+                <h2>Confort et sécurité pour votre voyage</h2><br>
+                <p>Véhicules avec licence et chauffeurs professionnels</p>
+            </div>
+            
             <div class="accueilInfoSeparator">
                 <article class="voiturePost">
                     <img src="images/voiture1.png" alt="Berline noire premium">
@@ -170,7 +177,39 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
         <?php //require_once "./app/views/includes/FormContact.php"; ?>
     </main>
     <?php require_once "../includes/stat_container/stat_container.php"; ?>
+
+    <section class="contactAccueil  conatctDiffer fade-in">
+            <div class="contactGroup1">
+                <div class="contactTitre">
+                    <span class="line"></span>
+                    <h1>Contactez-nous</h1>
+                    <span class="line"></span>
+                </div>
+
+                <p>Nous sommes honorés de recevoir vos commentaires et suggestions. N'hésitez pas à nous contacter.</p>
+                <div class="iconsAccueil">
+                    <a href="#facebook"><i class="fa-brands fa-square-facebook" style="color: #ff6600;"></i></a>
+                    <a href="#Instagram"><i class="fa-brands fa-square-instagram" style="color: #ff6600;"></i></a>
+                    <a href="#linkedin"><i class="fa-brands fa-linkedin" style="color: #ff6600;"></i></a>
+                </div>
+            </div>
+            <div class="contactGroup2">
+            <form id="contactForm">
+                <input type="text" id="nom" name="nom" placeholder="Nom" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="sujet" name="sujet" placeholder="Sujet" required>
+                <textarea id="messageInput" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                <button type="submit" id="submitBtn">Envoyer</button>
+                <div id="statusMessage" style="display: none; margin: 20px; font-weight: bold; color: white; padding: 8px; border-radius: 4px;"></div>
+            </form>
+        </div>
+    </section>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=<?= htmlspecialchars($googleMapsApiKey) ?>&libraries=places,directions"></script>
+    <script>
+    // Injection JS depuis PHP
+    const GOOGLE_SCRIPT_URL = <?= json_encode($googleScriptUrl) ?>;
+</script>
 <script src="index/index.js"></script>
 
 </body>
