@@ -169,6 +169,7 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
         <?php //require_once "./app/views/includes/num-conter.php"; ?>
         <?php //require_once "./app/views/includes/FormContact.php"; ?>
     </main>
+    <?php require_once "../includes/stat_container/stat_container.php"; ?>
     <script src="https://maps.googleapis.com/maps/api/js?key=<?= htmlspecialchars($googleMapsApiKey) ?>&libraries=places,directions"></script>
 <script src="index/index.js"></script>
 
