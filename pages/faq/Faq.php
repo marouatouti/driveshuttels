@@ -16,8 +16,8 @@
   <link rel="stylesheet" href="css/reset.css">
   <!-- Ton style CSS principal -->
   <link rel="stylesheet" href="faq.css">
-
-
+<body>
+  
 <?php include_once '../../includes/header/header.php'; ?>
 
 <div class="hero-faq">
@@ -259,3 +259,6 @@
         </div>
       </div>
     </div>
+    <script src="faq.js"></script>
+</body>
+</html>
