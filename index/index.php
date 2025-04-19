@@ -4,16 +4,18 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
 $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
-$googleScriptUrl = $_ENV['GOOGLE_SCRIPT_URL'] ?? '';
 
-
+$pageTitle = "DriveShuttel's - Transport privé à la demande, 7j/7";
 
 ?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- 🔹 Titre et description -->
-    <title>DriveShuttel's - Transport privé à la demande, 7j/7</title>
+    <title><?php htmlspecialchars($pageTitle) ?></title>
     <meta name="description" content="Réservez facilement votre transport privé avec DriveShuttel’s. Transferts aéroports, trajets personnalisés et chauffeurs à l’heure, 7j/7. Confort, sécurité et prix clairs.">
     <meta name="keywords" content="transport privé, VTC, réservation chauffeur, transfert aéroport, van, berline, service à l'heure, France, DriveShuttel's">
 
@@ -35,14 +37,6 @@ $googleScriptUrl = $_ENV['GOOGLE_SCRIPT_URL'] ?? '';
     <link rel="stylesheet" href="index/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
 
-
-    <!-- 🔹 Fonts (exemple Google Fonts) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
-    <!-- 🔹 Scripts éventuels -->
-    <script src="/public/js/script.js" defer></script>
 </head>
 <body>
     

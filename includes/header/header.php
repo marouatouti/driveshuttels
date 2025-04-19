@@ -18,9 +18,9 @@
         <nav class="nav-links">
             <ul>
                 <li><a href="index/index.php">Accueil</a></li>
-                <li><a href="../../../app/views/Reservation/ReservationInfo.php">Réservation</a></li>
-                <li><a href="../../../app/views/info/avis.php">Avis Client</a></li>
-                <li><a href="../../../app/views/info/Faq.php">FAQ</a></li>
+                <li><a href="http://localhost/driveshuttel_s/pages/reservation/reservation_info/reservationInfo.php">Réservation</a></li>
+                <li><a href="http://localhost/driveshuttel_s/pages/avis/Avis.php">Avis Client</a></li>
+                <li><a href="http://localhost/driveshuttel_s/pages/faq/faq.php">FAQ</a></li>
                 <li><a href="http://localhost/driveshuttel_s/pages/contact/contact.php">Contact</a></li>
             </ul>
         </nav>
@@ -34,9 +34,9 @@
             <nav class="liens-nav">
                 <ul class="sible">
                 <li><a href="http://localhost/driveshuttel_s/">Accueil</a></li>
-                    <li><a href="../../../app/views/Reservation/ReservationInfo.php">Réservation</a></li>
-                    <li><a href="../../../app/views/info/Avis.php">Avis Client</a></li>
-                    <li><a href="../../../app/views/info/Faq.php">FAQ</a></li>
+                    <li><a href="http://localhost/driveshuttel_s/pages/reservation/reservation_info/reservationInfo.php">Réservation</a></li>
+                    <li><a href="http://localhost/driveshuttel_s/pages/avis/Avis.php">Avis Client</a></li>
+                    <li><a href="http://localhost/driveshuttel_s/pages/faq/faq.php">FAQ</a></li>
                     <li><a href="http://localhost/driveshuttel_s/pages/contact/contact.php">Contact</a></li>
                 </ul>
             </nav>

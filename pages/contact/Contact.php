@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title><?= htmlspecialchars("Contact | DriveShuttel's") ?></title>
-    
     <meta name="description" content="Contactez DriveShuttel's pour vos demandes de réservation ou toute question. Nous sommes à votre écoute par email, téléphone ou réseaux sociaux.">
     <meta name="keywords" content="contact, DriveShuttel's, réservation, transport, chauffeur privé, devis, email, téléphone">
-    
+    <meta name="author" content="DriveShuttel's">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact | DriveShuttel's">
+    <meta property="og:description" content="Besoin d'aide ou d'informations ? Contactez DriveShuttel's par mail, téléphone ou via nos réseaux sociaux.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tonsite.com/contact.php"> <!-- à modifier -->
+    <meta property="og:image" content="https://tonsite.com/images/contact-cover.jpg"> <!-- à modifier -->
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="contact.css">
 </head>

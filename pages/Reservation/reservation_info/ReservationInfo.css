@@ -1,0 +1,90 @@
+.reservationInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reservationInfoBtn {
+    display: flex;
+    /* gap: 124px; */
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .reservationInfo > img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    /* margin-top: 470px; */
+    filter: brightness(50%);
+  }
+  .InfoReserv {
+    color: white;
+    padding: 10px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .imgReserv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+  }
+  .imgReserv > img {
+    width: 310px;
+  }
+  .InfoReserv h2 {
+    line-height: 1.3;
+    color: white;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  .imgReserv button {
+    color: #ffffff;
+    background-color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  .imgReserv button:hover {
+    background-color: #ff66008a;
+  }
+  .imgReserv a {
+    margin: -60px 0 15px 0;
+  }
+  
+  @media (min-width: 768px) {
+    .InfoReserv {
+      width: 50%;
+      /* padding: 0; */
+    }
+    .imgReserv {
+      width: 50%;
+    }
+    .imgReserv > img {
+      width: 400px;
+    }
+    .imgReserv button {
+      color: #ffffff;
+      background-color: #ff6600;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 16px;
+      cursor: pointer;
+      font-size: larger;
+    }
+    .imgReserv button:hover {
+      background-color: #ff66008a;
+    }
+    .imgReserv a {
+      margin: -90px 0 15px 0;
+    }
+  }

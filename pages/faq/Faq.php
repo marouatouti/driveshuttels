@@ -7,15 +7,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Découvrez notre foire aux questions : réservation, tarifs, paiement, services et bien plus." />
-  <meta name="keywords" content="FAQ, DriveShuttel's, réservation, transport, VTC, navette, questions fréquentes" />
-  <meta name="author" content="DriveShuttel's">
   <title><?= htmlspecialchars($pageTitle) ?></title>
+  <meta name="description" content="Découvrez notre foire aux questions : réservation, tarifs, paiement, services et bien plus.">
+  <meta name="keywords" content="FAQ, DriveShuttel's, réservation, transport, VTC, navette, questions fréquentes">
+  <meta name="author" content="DriveShuttel's">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="<?= htmlspecialchars($pageTitle) ?> | DriveShuttel's">
+  <meta property="og:description" content="Toutes les réponses à vos questions fréquentes sur les services de DriveShuttel's.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonsite.com/faq.php"> <!-- à modifier avec l’URL finale -->
+  <meta property="og:image" content="https://tonsite.com/images/faq-cover.jpg"> <!-- à modifier avec ton image OG -->
+
 
   <!-- Reset CSS -->
   <link rel="stylesheet" href="css/reset.css">
   <!-- Ton style CSS principal -->
   <link rel="stylesheet" href="faq.css">
+</head>
 <body>
   
 <?php include_once '../../includes/header/header.php'; ?>
