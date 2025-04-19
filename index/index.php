@@ -33,6 +33,8 @@ $googleScriptUrl = $_ENV['GOOGLE_SCRIPT_URL'] ?? '';
     
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="index/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+
 
     <!-- 🔹 Fonts (exemple Google Fonts) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -206,10 +208,7 @@ $googleScriptUrl = $_ENV['GOOGLE_SCRIPT_URL'] ?? '';
     </section>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=<?= htmlspecialchars($googleMapsApiKey) ?>&libraries=places,directions"></script>
-    <script>
-    // Injection JS depuis PHP
-    const GOOGLE_SCRIPT_URL = <?= json_encode($googleScriptUrl) ?>;
-</script>
+    <?php require_once "../includes/whatsapp/whatsapp.php"; ?>
 <script src="index/index.js"></script>
 
 </body>
