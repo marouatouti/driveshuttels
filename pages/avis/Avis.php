@@ -32,19 +32,30 @@ $reviews = $pdo->query("SELECT * FROM avis ORDER BY date_avis DESC")->fetchAll(P
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php htmlspecialchars("Avis clients | DriveShuttel's") ?></title>
+    
+    <!-- Meta SEO -->
+    <meta name="keywords" content="avis clients, témoignages, expérience chauffeur privé, avis sur chauffeur privé, commentaires clients, témoignages DriveShuttles, feedback clients">
+    <meta name="description" content="Découvrez les avis et témoignages de nos clients sur DriveShuttles. Partagez votre expérience et laissez un commentaire après votre trajet.">
 
-    <meta name="description" content="Découvrez les avis de nos clients sur DriveShuttel's. Service de transport privé fiable, confortable et professionnel.">
-    <meta name="keywords" content="avis clients, témoignages, DriveShuttel's, transport privé, VTC, chauffeur, service de transport">
-    <meta name="author" content="DriveShuttel's">
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
 
-    <!-- Open Graph (partage réseaux sociaux) -->
-    <meta property="og:title" content="Avis clients | DriveShuttel's">
-    <meta property="og:description" content="Consultez les retours d’expérience de nos clients. DriveShuttel's, votre service de transport privé de confiance.">
+    <!-- Title -->
+    <title>Avis et Témoignages des Clients - DriveShuttles</title>
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tonsite.com/avis.php"> <!-- à modifier avec ton vrai lien -->
-    <meta property="og:image" content="https://tonsite.com/images/avis-cover.jpg"> <!-- à modifier aussi -->
+    <meta property="og:title" content="Avis et Témoignages des Clients - DriveShuttles">
+    <meta property="og:description" content="Découvrez les avis et témoignages de nos clients sur DriveShuttles. Partagez votre expérience et laissez un commentaire après votre trajet.">
+    <meta property="og:url" content="https://www.tonsite.com/avis">
+    <meta property="og:image" content="URL_de_l_image_de_partage_ici">
+    <meta property="og:site_name" content="DriveShuttles">
 
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://www.tonsite.com/avis">
+
+    
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="avis.css">
     
 </head>
