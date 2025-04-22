@@ -1,12 +1,28 @@
-<?php
-  $pageTitle = 'FAQ - DriveShuttel\'s';
-  
-?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="robots" content="index, follow" />
+  <title>FAQ - Questions Fréquentes sur Nos Services VTC | DriveShuttel’s</title>
+
+  <meta name="description" content="Trouvez les réponses à toutes vos questions sur nos services de chauffeur privé et VTC à Paris. Tarifs, réservation, annulation, sécurité, types de véhicules et plus encore.">
+  <meta name="keywords" content="FAQ chauffeur privé, questions fréquentes chauffeur VTC, tarifs VTC Paris, conditions chauffeur privé, annulation réservation chauffeur, types de véhicules VTC, sécurité chauffeur privé, paiement chauffeur privé, services VTC Paris, chauffeur privé Paris questions, chauffeur privé aéroport Paris FAQ">
+
+  <link rel="canonical" href="https://www.todomainsite.com/faq"> <!-- Remplacez par l'URL canonique de votre page -->
+  <meta property="og:title" content="FAQ Chauffeur Privé Paris - Questions Fréquentes sur Nos Services VTC">
+  <meta property="og:description" content="Découvrez nos réponses aux questions fréquentes sur nos services de chauffeur privé à Paris. Tarifs, réservation, annulation, types de véhicules, et bien plus.">
+  <meta property="og:image" content="https://www.todomainsite.com/images/faq-chauffeur-prive.jpg">
+  <meta property="og:url" content="https://www.todomainsite.com/faq">
+  <meta property="og:type" content="website">
+
+
+
+
+
+
 
   <!-- Reset CSS -->
   <link rel="stylesheet" href="css/reset.css">

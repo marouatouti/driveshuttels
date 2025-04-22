@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Meta Robots pour indexation -->
-  <meta name="robots" content="index, follow">
+    <!-- Meta keywords -->
+    <meta name="keywords" content="contact chauffeur privé, contact vtc, réserver chauffeur, questions vtc, service client chauffeur, service client vtc">
+    
+    <!-- Meta description -->
+    <meta name="description" content="Contactez-nous pour toutes questions, réservations ou informations sur notre service de chauffeur privé à Paris. Réservez votre chauffeur VTC dès aujourd'hui.">
+    
+    <!-- Meta robots (indexer cette page) -->
+    <meta name="robots" content="index, follow">
 
-  <!-- Title -->
-  <title>FAQ - Chauffeur Privé à Paris | DriveShuttel’s</title>
-
-  <!-- Meta Description -->
-  <meta name="description" content="Découvrez les réponses aux questions fréquentes sur nos services de chauffeur privé à Paris, réservation de VTC, et transferts aéroport CDG/Orly avec DriveShuttel’s.">
-
-  <!-- Meta Keywords -->
-  <meta name="keywords" content="FAQ chauffeur privé Paris, questions fréquentes VTC, chauffeur privé, transfert aéroport CDG, transfert aéroport Orly, réservation chauffeur privé, chauffeur privé Paris, VTC Paris, service chauffeur à l'heure">
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://www.davidesite.com/faq">
-
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="FAQ - Chauffeur Privé à Paris | DriveShuttel’s">
-  <meta property="og:description" content="Découvrez les réponses aux questions fréquentes sur nos services de chauffeur privé à Paris, réservation de VTC, et transferts aéroport CDG/Orly avec DriveShuttel’s.">
-  <meta property="og:image" content="http://localhost/driveshuttel_s/images/faq-image.png">
-  <meta property="og:url" content="https://www.davidesite.com/faq">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="DriveShuttel’s">
-
-  <!-- Favicon -->
-  <link rel="icon" href="images/icon.png" type="image/x-icon">
-
-  <!-- Reset CSS -->
-  <link rel="stylesheet" href="css/reset.css">
-  <!-- Ton style CSS principal -->
-  <link rel="stylesheet" href="faq.css">
+    <!-- Title -->
+    <title>Contactez-nous - Chauffeur Privé à Paris | DriveShuttel’s</title>
+    
+    
+    
+    <!-- Canonical link -->
+    <link rel="canonical" href="https://www.davidesite.com/contact">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contactez-nous - Chauffeur Privé à Paris | DriveShuttel’s">
+    <meta property="og:description" content="Contactez-nous pour toutes questions, réservations ou informations sur notre service de chauffeur privé à Paris. Réservez votre chauffeur VTC dès aujourd'hui.">
+    <meta property="og:image" content="http://localhost/driveshuttel_s/images/imgAccueil.png"> <!-- Remplacer par l'URL de l'image liée à la page -->
+    <meta property="og:url" content="https://www.davidesite.com/contact">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DriveShuttel’s">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
-
 <?php include_once '../../includes/header/header.php'; ?>
 <body>
     
