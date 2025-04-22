@@ -1,5 +1,8 @@
  /**************************************js for form reservation trajet *******************************/ 
+ console.warn = function () {};
+
  document.addEventListener('DOMContentLoaded', function() {
+    
     const vehicleConfigs = {
         'economic': { maxPersons: 4, maxBaggage: 4 },
         'business': { maxPersons: 4, maxBaggage: 4 },
@@ -151,6 +154,7 @@ function initAutocomplete() {
 
     new google.maps.places.Autocomplete(departInput, options);
     new google.maps.places.Autocomplete(arriveeInput, options);
+    
 }
 
 document.addEventListener("DOMContentLoaded", initAutocomplete);
@@ -186,6 +190,7 @@ document.getElementById("trajet-form").addEventListener("submit", function(e) {
             }
         }
     );
+    
 });
 
 function calculerPrix(distance_km, vehicule) {

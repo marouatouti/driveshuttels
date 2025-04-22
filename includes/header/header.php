@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="http://localhost/driveshuttel_s/includes/header/header.js">
 <link rel="stylesheet" href="http://localhost/driveshuttel_s/includes/header/header.css">
 
 
@@ -45,6 +45,6 @@
 
 
 
-<script src="includes/header/header.js"></script>
+<script src="http://localhost/driveshuttel_s/includes/header/header.js"></script>
 
     

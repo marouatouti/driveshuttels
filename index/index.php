@@ -201,7 +201,8 @@ $pageTitle = "DriveShuttel's - Transport privé à la demande, 7j/7";
         </div>
     </section>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=<?= htmlspecialchars($googleMapsApiKey) ?>&libraries=places,directions"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<?= htmlspecialchars($googleMapsApiKey) ?>&libraries=places,directions" async
+    defer></script>
     <?php require_once "../includes/whatsapp/whatsapp.php"; ?>
 <script src="index/index.js"></script>
 

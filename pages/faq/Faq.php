@@ -27,7 +27,7 @@
 </head>
 <body>
   
-<?php include_once '../../includes/header/header.php'; ?>
+<?php require_once "../../includes/header/header.php"; ?>
 
 <div class="hero-faq">
       <h1>FAQ</h1>

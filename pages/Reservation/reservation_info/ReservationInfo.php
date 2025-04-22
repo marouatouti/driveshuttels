@@ -28,7 +28,7 @@
         </div>
         <div class="imgReserv">
             <img src="../../../images/element/BtnReservation.png" alt="">
-            <a href=" .php">
+            <a href=" http://localhost/driveshuttel_s/pages/Reservation/reservation_select/selectReservation.php">
                 <button>Réservez maintenant</button>
             </a>
         </div>
