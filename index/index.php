@@ -14,6 +14,24 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="robots" content="index, follow">
+    <title>Chauffeur Privé à Paris - VTC, Transfert Aéroport & Service à l'Heure | DriveShuttel’s</title>
+    <meta name="keywords" content="chauffeur privé Île-de-France, réservation VTC Paris, transport aéroport Paris, service chauffeur à l'heure, VTC pas cher Paris, van privé Paris, berline avec chauffeur, transfert aéroport CDG, VTC Orly, transport en ville Paris">
+    <meta name="description" content="Réservez votre chauffeur privé à Paris avec DriveShuttel’s. Service VTC pas cher, transfert aéroport (CDG, Orly), et chauffeur à l’heure. Confort et tarifs transparents.">
+    <meta name="author" content="DriveShuttel's">
+
+    <link rel="canonical" href="https://www.davidesite.com" /> <!-- Remplace par l'URL de la page d'accueil -->
+
+    <!-- balise open graph -->
+    <meta property="og:title" content="Chauffeur Privé à Paris - VTC, Transfert Aéroport & Service à l'Heure | DriveShuttel’s">
+    <meta property="og:description" content="Réservez votre chauffeur privé à Paris avec DriveShuttel’s. Service VTC pas cher, transfert aéroport (CDG, Orly), et chauffeur à l’heure. Confort et tarifs transparents.">
+    <meta property="og:image" content="http://localhost/driveshuttel_s/images/imgAccueil.png">
+    <meta property="og:url" content="https://www.davidesite.com"> <!-- Remplace par l'URL de la page d'accueil -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DriveShuttel’s">
+
+    
+
 
     <link rel="icon" href="images/icon.png" type="image/x-icon">
 
@@ -21,10 +39,8 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- 🔹 Feuilles de style -->
-    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="index/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -34,7 +50,7 @@ $googleMapsApiKey = $_ENV['GOOGLE_MAPS_API_KEY'];
 
     <main>
         <section class="accueil">
-            <img src="images/imgAccueil.png" alt="Rue de Paris avec circulation urbaine">
+            <img src="images/imgAccueil.png" alt="Vue de la rue de Paris avec circulation et véhicules privés">
             <article>
                 <div class="formDevisAccueil">
                     <div class="form-switch">

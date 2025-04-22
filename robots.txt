@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: http://localhost/driveshuttel_s/
+Disallow: http://localhost/driveshuttel_s/
+Disallow: http://localhost/driveshuttel_s/
+Disallow: http://localhost/driveshuttel_s/
